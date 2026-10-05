@@ -1,0 +1,368 @@
+<resources>
+    <string name="app_name">Schedulyy</string>
+
+    <!-- Navigasi Tab Bar iOS (§7.4) -->
+    <string name="nav_home">Home</string>
+    <string name="nav_today">Beranda</string>
+    <string name="nav_schedule">Jadwal</string>
+    <string name="nav_tasks">Tugas</string>
+    <string name="nav_folder">Folder</string>
+    <string name="nav_spaces">Folder</string>
+    <string name="cd_nav_home">Tab Home</string>
+    <string name="cd_nav_today">Tab Beranda</string>
+    <string name="cd_nav_schedule">Tab Jadwal</string>
+    <string name="cd_nav_tasks">Tab Tugas</string>
+    <string name="cd_nav_folder">Tab Folder</string>
+    <string name="cd_nav_spaces">Tab Folder</string>
+    <string name="cd_fab_add">Tambah baru</string>
+    <string name="cd_theme_toggle">Ganti tema terang atau gelap</string>
+    <string name="cd_catalog_button">Buka katalog komponen visual</string>
+
+    <!-- Beranda & ID Card Mahasiswa -->
+    <string name="home_greeting_sample">Hello, Dimas</string>
+    <string name="home_date_sample">Senin, 5 Oktober</string>
+    <string name="home_section_todo">To-do</string>
+    <string name="filter_ongoing">Ongoing</string>
+    <string name="id_label_name">NAMA</string>
+    <string name="id_label_semester">SEMESTER</string>
+    <string name="id_label_major">JURUSAN</string>
+    <string name="id_label_nim">NIM</string>
+    <string name="cd_profile_photo">Foto Profil</string>
+    <string name="ipod_label_next">SELANJUTNYA</string>
+    <string name="cd_prev_schedule">Jadwal Sebelumnya</string>
+    <string name="cd_next_schedule">Jadwal Berikutnya</string>
+
+    <!-- Katalog Komponen -->
+    <string name="title_catalog">Katalog Komponen</string>
+    <string name="catalog_desc">Pratinjau visual: gaya Neo-Pastel Y2K di atas struktur iOS sesuai Stitch dan PROJECT_BRIEF §7.</string>
+    <string name="catalog_section_buttons">Gaya Tombol</string>
+    <string name="catalog_section_cards">Kartu Space / Folder</string>
+    <string name="catalog_section_chips">Filter &amp; Status Chip</string>
+    <string name="catalog_section_tasks">Checkbox &amp; Item Tugas</string>
+
+    <!-- Komponen Item Demo -->
+    <string name="btn_primary">Tombol Periwinkle</string>
+    <string name="btn_secondary">Tombol Putih Inset</string>
+    <string name="btn_outlined">Tombol Garis Tepi</string>
+    <string name="space_card_title_hmif">HMIF</string>
+    <string name="space_card_subtitle_hmif">Organisasi • 5 Proker</string>
+    <string name="space_card_title_kuliah">Semester 4</string>
+    <string name="space_card_subtitle_kuliah">Kuliah • 6 Matkul</string>
+    <string name="space_card_title_kepanitiaan">Dies Natalis 2026</string>
+    <string name="space_card_subtitle_kepanitiaan">Kepanitiaan • Divisi Acara</string>
+    <string name="chip_all">Semua</string>
+    <string name="chip_in_progress">Berjalan</string>
+    <string name="chip_planned">Rencana</string>
+    <string name="chip_done">Selesai</string>
+    <string name="chip_urgent">Mendesak</string>
+    <string name="task_sample_1">Laporan Praktikum Pemrograman Mobile</string>
+    <string name="task_sample_1_sub">Besok, 23:59 • Pemrograman Mobile</string>
+    <string name="task_sample_2">Konfirmasi rundown pemateri Dies Natalis</string>
+    <string name="task_sample_2_sub">H-3 • Divisi Acara</string>
+    <string name="task_sample_3">Finalisasi slide presentasi proposal</string>
+    <string name="task_sample_3_sub">Selesai • HMIF</string>
+
+    <!-- Tema & Placeholder -->
+    <string name="theme_mode_light">Tema Terang</string>
+    <string name="theme_mode_dark">Tema Gelap</string>
+    <string name="placeholder_today_title">Beranda</string>
+    <string name="placeholder_today_desc">Kartu ID, timeline sesi kelas, dan deadline terdekat.</string>
+    <string name="placeholder_schedule_title">Jadwal</string>
+    <string name="placeholder_schedule_desc">Jadwal kuliah mingguan dan agenda kegiatan organisasi.</string>
+    <string name="placeholder_tasks_title">Tugas</string>
+    <string name="placeholder_tasks_desc">Daftar tugas kuliah dan kepanitiaan dikelompokkan menurut deadline.</string>
+    <string name="placeholder_spaces_title">Folder</string>
+    <string name="placeholder_spaces_desc">Folder untuk Kuliah, Organisasi, Kepanitiaan, dan Proker.</string>
+    <string name="action_open_catalog">Lihat Katalog Komponen</string>
+    <string name="action_close">Tutup</string>
+    <string name="action_undo">Urungkan</string>
+    <string name="action_remove_deadline">Hapus deadline</string>
+
+    <!-- Fase 2: Layar Tugas -->
+    <string name="group_overdue">Terlambat</string>
+    <string name="group_today">Hari ini</string>
+    <string name="group_this_week">Minggu ini</string>
+    <string name="group_later">Nanti</string>
+    <string name="group_no_deadline">Tanpa Deadline</string>
+    <string name="filter_all">Semua</string>
+    <string name="tasks_search_placeholder">Cari tugas…</string>
+    <string name="tasks_empty_title">Belum ada tugas</string>
+    <string name="tasks_empty_desc">Tambah tugas pertamamu sekarang.</string>
+    <string name="tasks_add_first">Tambah Tugas</string>
+    <string name="task_marked_done">Tugas selesai</string>
+    <string name="cd_task_done">Tandai selesai</string>
+    <string name="subtask_progress_label">SUBTUGAS</string>
+
+    <!-- Sheet Tambah/Edit Tugas -->
+    <string name="sheet_add_task">Tugas Baru</string>
+    <string name="sheet_edit_task">Edit Tugas</string>
+    <string name="sheet_label_title">JUDUL</string>
+    <string name="sheet_label_notes">CATATAN</string>
+    <string name="sheet_label_deadline">DEADLINE</string>
+    <string name="sheet_label_priority">PRIORITAS</string>
+    <string name="sheet_label_subtasks">SUBTUGAS</string>
+    <string name="sheet_placeholder_title">Judul tugas…</string>
+    <string name="sheet_placeholder_notes">Catatan opsional…</string>
+    <string name="sheet_no_date">Pilih tanggal</string>
+    <string name="sheet_add_time">+ Jam</string>
+    <string name="sheet_add_subtask">Tambah subtugas</string>
+    <string name="sheet_subtask_placeholder">Langkah kecil…</string>
+    <string name="sheet_save">Simpan Tugas</string>
+    <string name="sheet_saving">Menyimpan…</string>
+
+    <!-- Prioritas -->
+    <string name="priority_low">Rendah</string>
+    <string name="priority_medium">Sedang</string>
+    <string name="priority_high">Tinggi</string>
+
+    <!-- Fase 2: Tambah Space / Folder -->
+    <string name="sheet_add_space">Folder Baru</string>
+    <string name="sheet_space_type">JENIS FOLDER</string>
+    <string name="sheet_space_name">NAMA FOLDER</string>
+    <string name="sheet_space_name_placeholder">mis. HMIF, Skripsi, Kepanitiaan…</string>
+    <string name="sheet_space_color">WARNA</string>
+    <string name="sheet_space_save">Buat Folder</string>
+    <string name="space_type_pribadi">Pribadi</string>
+    <string name="space_type_kuliah">Kuliah</string>
+    <string name="space_type_organisasi">Organisasi</string>
+    <string name="space_type_kepanitiaan">Kepanitiaan</string>
+    <string name="space_type_custom">Lainnya</string>
+
+    <!-- Fase 3: Layar Jadwal & Semester -->
+    <string name="schedule_title">Jadwal</string>
+    <string name="schedule_tab_day">Hari</string>
+    <string name="schedule_tab_week">Minggu</string>
+    <string name="schedule_no_semester">Atur Semester</string>
+    <string name="schedule_today_empty_title">Tidak Ada Jadwal Kelas</string>
+    <string name="schedule_today_empty_desc">Hari ini bebas kelas. Nikmati waktu luang atau cicil tugasmu!</string>
+    <string name="schedule_conflict_badge">Bentrok</string>
+    <string name="schedule_add_course">Matkul Baru</string>
+    <string name="schedule_setup_semester">Atur Semester</string>
+    <string name="schedule_empty_action_add">Tambah Jadwal Kelas</string>
+    <string name="schedule_sks_suffix">%1$d SKS</string>
+    <string name="schedule_saved">Jadwal berhasil disimpan</string>
+    <string name="schedule_deleted">Matkul dihapus</string>
+    <string name="semester_saved">Semester berhasil disimpan</string>
+    <string name="schedule_error_empty_name">Nama matkul wajib diisi</string>
+    <string name="schedule_error_invalid_time">Jam selesai harus setelah jam mulai</string>
+
+    <!-- Hari Singkat & Lengkap -->
+    <string name="day_mon_short">SEN</string>
+    <string name="day_tue_short">SEL</string>
+    <string name="day_wed_short">RAB</string>
+    <string name="day_thu_short">KAM</string>
+    <string name="day_fri_short">JUM</string>
+    <string name="day_sat_short">SAB</string>
+    <string name="day_sun_short">MIN</string>
+    <string name="day_mon_full">Senin</string>
+    <string name="day_tue_full">Selasa</string>
+    <string name="day_wed_full">Rabu</string>
+    <string name="day_thu_full">Kamis</string>
+    <string name="day_fri_full">Jumat</string>
+    <string name="day_sat_full">Sabtu</string>
+    <string name="day_sun_full">Minggu</string>
+
+    <!-- Sheet Tambah/Edit Matkul -->
+    <string name="sheet_add_course_title">Matkul &amp; Sesi Baru</string>
+    <string name="sheet_edit_course_title">Edit Matkul</string>
+    <string name="sheet_course_name">NAMA MATKUL</string>
+    <string name="sheet_course_name_hint">mis. Pemrograman Mobile</string>
+    <string name="sheet_course_code">KODE MATKUL (OPSIONAL)</string>
+    <string name="sheet_course_code_hint">mis. IF204</string>
+    <string name="sheet_course_lecturer">DOSEN (OPSIONAL)</string>
+    <string name="sheet_course_lecturer_hint">mis. Dr. Ir. Budi Santoso</string>
+    <string name="sheet_course_room">RUANG KELAS</string>
+    <string name="sheet_course_room_hint">mis. Lab 3 / R. 2.14</string>
+    <string name="sheet_course_sks">BOBOT SKS</string>
+    <string name="sheet_course_color">WARNA TEMA</string>
+    <string name="sheet_course_sessions">SESI KELAS</string>
+    <string name="sheet_course_add_session">+ Tambah Sesi Kelas</string>
+    <string name="sheet_course_session_day">HARI</string>
+    <string name="sheet_course_session_start">MULAI</string>
+    <string name="sheet_course_session_end">SELESAI</string>
+    <string name="sheet_course_session_remove">Hapus sesi</string>
+    <string name="sheet_course_save">Simpan Matkul</string>
+    <string name="sheet_course_delete">Hapus Matkul</string>
+    <string name="sheet_course_delete_confirm">Hapus matkul ini beserta seluruh sesinya?</string>
+
+    <!-- Sheet Pengaturan Semester -->
+    <string name="sheet_semester_title">Pengaturan Semester</string>
+    <string name="sheet_semester_name">NAMA SEMESTER</string>
+    <string name="sheet_semester_name_hint">mis. Semester Ganjil 2026/2027</string>
+    <string name="sheet_semester_start">TANGGAL MULAI</string>
+    <string name="sheet_semester_end">TANGGAL BERAKHIR</string>
+    <string name="sheet_semester_active">Jadikan Semester Aktif</string>
+    <string name="sheet_semester_save">Simpan Semester</string>
+    <string name="action_delete">Hapus</string>
+    <string name="action_cancel">Batal</string>
+    <string name="home_no_class_title">Bebas Kuliah</string>
+    <string name="home_no_class_sub">Tidak ada jadwal kuliah hari ini</string>
+
+    <!-- Fase 4: Space, Organisasi, Divisi, Proker, Kegiatan -->
+    <string name="spaces_title">Folder</string>
+    <string name="spaces_empty_title">Belum Ada Folder</string>
+    <string name="spaces_empty_desc">Buat folder untuk Himpunan, Kepanitiaan, UKM, atau organisasi kampusmu.</string>
+    <string name="spaces_stat_proker">%1$d Proker</string>
+    <string name="spaces_stat_tasks">%1$d Tugas</string>
+    <string name="spaces_stat_subfolders">%1$d Sub-Folder</string>
+
+    <!-- Tab Detail Space -->
+    <string name="tab_summary">Ringkasan</string>
+    <string name="tab_proker">Proker</string>
+    <string name="tab_tasks">Tugas</string>
+    <string name="tab_schedule">Jadwal</string>
+
+    <!-- Template Space -->
+    <string name="template_label">TEMPLATE ORGANISASI</string>
+    <string name="template_himpunan">Himpunan</string>
+    <string name="template_kepanitiaan">Kepanitiaan</string>
+    <string name="template_ukm">UKM</string>
+    <string name="template_kosong">Kosong</string>
+
+    <!-- Divisi -->
+    <string name="division_title">Divisi</string>
+    <string name="add_division">+ Divisi</string>
+    <string name="sheet_add_division_title">Divisi Baru</string>
+    <string name="sheet_division_name">NAMA DIVISI</string>
+    <string name="sheet_division_name_hint">mis. Acara, Humas, Konsumsi…</string>
+    <string name="sheet_division_color">WARNA DIVISI</string>
+    <string name="sheet_save_division">Simpan Divisi</string>
+
+    <!-- Sub-folder -->
+    <string name="subfolder_title">Kepanitiaan &amp; Sub-Folder</string>
+    <string name="add_subfolder">+ Sub-Folder</string>
+
+    <!-- Proker -->
+    <string name="proker_title">Program Kerja</string>
+    <string name="add_proker">+ Proker Baru</string>
+    <string name="sheet_add_proker_title">Proker Baru</string>
+    <string name="sheet_edit_proker_title">Edit Proker</string>
+    <string name="sheet_proker_name">NAMA PROKER</string>
+    <string name="sheet_proker_name_hint">mis. Dies Natalis, Workshop Mobile…</string>
+    <string name="sheet_proker_desc">DESKRIPSI</string>
+    <string name="sheet_proker_desc_hint">Tujuan atau ruang lingkup proker…</string>
+    <string name="sheet_proker_division">DIVISI</string>
+    <string name="sheet_proker_division_all">Semua Divisi</string>
+    <string name="sheet_proker_division_none">Tanpa Divisi</string>
+    <string name="sheet_proker_status">STATUS</string>
+    <string name="sheet_proker_start">MULAI</string>
+    <string name="sheet_proker_end">SELESAI</string>
+    <string name="sheet_save_proker">Simpan Proker</string>
+    <string name="status_rencana">Rencana</string>
+    <string name="status_berjalan">Berjalan</string>
+    <string name="status_selesai">Selesai</string>
+    <string name="proker_empty">Belum ada program kerja</string>
+    <string name="proker_empty_desc">Tambahkan program kerja untuk memantau progres organisasi.</string>
+
+    <!-- Kegiatan (Event) -->
+    <string name="event_title">Jadwal Kegiatan</string>
+    <string name="add_event">+ Kegiatan Baru</string>
+    <string name="sheet_add_event_title">Kegiatan Baru</string>
+    <string name="sheet_event_title">JUDUL KEGIATAN</string>
+    <string name="sheet_event_title_hint">mis. Rapat Pleno, Technical Meeting</string>
+    <string name="sheet_event_type">JENIS KEGIATAN</string>
+    <string name="sheet_event_location">LOKASI</string>
+    <string name="sheet_event_location_hint">mis. Ruang 2.14 / Zoom</string>
+    <string name="sheet_event_start">WAKTU MULAI</string>
+    <string name="sheet_event_end">WAKTU SELESAI</string>
+    <string name="sheet_event_proker">PROKER TERKAIT</string>
+    <string name="sheet_event_proker_none">Tidak terikat proker</string>
+    <string name="sheet_event_notes">CATATAN</string>
+    <string name="sheet_event_repeat_weekly">Ulangi setiap minggu</string>
+    <string name="sheet_save_event">Simpan Kegiatan</string>
+    <string name="event_type_rapat">Rapat</string>
+    <string name="event_type_proker">Proker</string>
+    <string name="event_type_acara">Acara</string>
+    <string name="event_type_deadline">Deadline</string>
+    <string name="event_type_lainnya">Lainnya</string>
+    <string name="event_empty">Belum ada kegiatan</string>
+    <string name="event_empty_desc">Rapat atau kegiatan yang kamu jadwalkan akan muncul di sini dan kalender jadwal.</string>
+
+    <!-- Fase 5: Pengaturan & Gemini API -->
+    <string name="settings_title">Pengaturan</string>
+    <string name="settings_section_id_card">KARTU MAHASISWA</string>
+    <string name="settings_section_gemini">GEMINI AI</string>
+    <string name="settings_section_reminders">PENGINGAT &amp; NOTIFIKASI</string>
+    <string name="settings_section_data">DATA &amp; PENYIMPANAN</string>
+    <string name="settings_section_about">TENTANG APLIKASI</string>
+
+    <string name="settings_api_key_label">API Key Gemini</string>
+    <string name="settings_api_key_hint">Tempel Google Gemini API key…</string>
+    <string name="settings_api_key_saved">Key Tersimpan</string>
+    <string name="settings_api_key_empty">Belum diatur</string>
+    <string name="settings_api_key_save">Simpan Key</string>
+    <string name="settings_api_key_delete">Hapus Key</string>
+    <string name="settings_api_key_guide">Cara mendapatkan API key gratis</string>
+    <string name="settings_test_connection">Tes Koneksi</string>
+    <string name="settings_testing_connection">Menguji koneksi…</string>
+    <string name="settings_model_label">Model Gemini</string>
+    <string name="settings_model_manual_option">Model Lain (Ketik Manual)</string>
+    <string name="settings_model_manual_hint">mis. gemini-2.0-flash</string>
+    <string name="settings_privacy_note">Gambar yang kamu scan dikirim langsung dari HP ke Google memakai API key milikmu. Kami tidak memiliki server dan tidak menyimpan datamu. Pada tier gratis (free tier), Google dapat meninjau data untuk melatih model. Hindari memindai data sangat rahasia (KTP, password, dll).</string>
+
+    <!-- Bottom sheet key belum diatur -->
+    <string name="sheet_no_key_title">API Key Belum Diatur</string>
+    <string name="sheet_no_key_desc">Fitur scan jadwal dan tugas menggunakan Google Gemini API dengan API key milikmu sendiri. Dapatkan key secara gratis langsung dari Google AI Studio.</string>
+    <string name="sheet_no_key_open_settings">Buka Pengaturan</string>
+    <string name="sheet_no_key_cancel">Nanti Saja</string>
+
+    <!-- Notifikasi & Pengingat -->
+    <string name="settings_notif_enabled">Izinkan Notifikasi</string>
+    <string name="settings_reminder_default">Pengingat Default</string>
+    <string name="settings_reminder_30m">30 menit sebelum</string>
+    <string name="settings_reminder_1h">1 jam sebelum</string>
+    <string name="settings_reminder_2h">2 jam sebelum</string>
+    <string name="settings_reminder_1d">1 hari sebelum (19:00)</string>
+
+    <!-- Data & Storage -->
+    <string name="settings_export_json">Ekspor Data (JSON)</string>
+    <string name="settings_import_json">Impor Data (JSON)</string>
+    <string name="settings_clear_data">Hapus Semua Data</string>
+    <string name="settings_clear_data_confirm_title">Hapus Semua Data?</string>
+    <string name="settings_clear_data_confirm_desc">Semua jadwal, tugas, dan folder akan dihapus secara permanen dari perangkat ini. Tindakan ini tidak dapat dibatalkan.</string>
+    <string name="settings_clear_data_confirm_action">Hapus Permanen</string>
+    <string name="settings_data_cleared">Semua data berhasil dibersihkan</string>
+
+    <!-- Profil Mahasiswa -->
+    <string name="settings_profile_name">Nama</string>
+    <string name="settings_profile_univ">Kampus / Universitas</string>
+    <string name="settings_profile_semester">Semester</string>
+    <string name="settings_profile_color">Warna Kartu</string>
+    <string name="settings_profile_saved">Profil berhasil diperbarui</string>
+
+    <!-- Tentang -->
+    <string name="settings_app_name">Schedulyy</string>
+    <string name="settings_app_version">Versi 1.0 (Akademik &amp; Organisasi)</string>
+    <string name="settings_app_desc">Organizer kuliah dan kepanitiaan untuk mahasiswa Indonesia.</string>
+
+    <!-- Fase 6: Pindai Screenshot AI & Quick Action -->
+    <string name="scan_title">Pindai Screenshot</string>
+    <string name="scan_subtitle">Pilih hingga 5 screenshot jadwal kuliah, tugas, atau agenda</string>
+    <string name="scan_fab_tooltip">Pindai Screenshot</string>
+    <string name="scan_pick_images">Pilih Gambar Screenshot</string>
+    <string name="scan_pick_images_desc">SIAKAD, chat WA dosen, Google Classroom, atau poster kegiatan (maks. 5 gambar)</string>
+    <string name="scan_target_space">SIMPAN KE FOLDER / SPACE</string>
+    <string name="scan_target_space_desc">Pilih folder tujuan untuk jadwal &amp; tugas hasil scan</string>
+    <string name="scan_start_button">Mulai Pindai AI</string>
+    <string name="scan_loading_title">Memindai Screenshot…</string>
+    <string name="scan_loading_desc">Google Gemini sedang menganalisis teks, mendeteksi jadwal, dan mengekstrak deadline tugas.</string>
+    <string name="scan_cancel_button">Batal</string>
+    <string name="scan_no_key_warning">API Key Gemini belum disetel. Atur API key di Pengaturan terlebih dahulu.</string>
+    <string name="scan_configure_key">Atur API Key Sekarang</string>
+    <string name="scan_review_title">Tinjau Hasil Pindai</string>
+    <string name="scan_review_subtitle">Periksa dan pilih item yang ingin kamu simpan ke jadwal dan daftar tugas.</string>
+    <string name="scan_schedules_header">Jadwal Kuliah &amp; Kegiatan</string>
+    <string name="scan_tasks_header">Tugas &amp; Deadline</string>
+    <string name="scan_save_selected">Simpan yang Dipilih (%1$d)</string>
+    <string name="scan_select_all">Pilih Semua</string>
+    <string name="scan_deselect_all">Batal Pilih Semua</string>
+    <string name="scan_badge_needs_check">Perlu Dicek</string>
+    <string name="scan_badge_duplicate">Duplikat</string>
+    <string name="scan_empty_result">Tidak ada jadwal atau tugas yang terdeteksi pada screenshot ini.</string>
+    <string name="scan_undo">Urungkan</string>
+    <string name="scan_saved_success">%1$d item berhasil disimpan</string>
+    <string name="quick_action_scan">Pindai Screenshot AI</string>
+    <string name="quick_action_task">Tambah Tugas Manual</string>
+    <string name="quick_action_course">Tambah Sesi Kuliah</string>
+    <string name="quick_action_event">Tambah Agenda Kegiatan</string>
+</resources>
